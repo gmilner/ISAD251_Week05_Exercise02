@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmilner\\Downloads\\Week05\\ISAD251_Week05\\ISAD251_Week05.csproj": {}
+    "C:\\wamp64\\www\\ISAD251_Wk05_Ex02\\ISAD251_Week05\\ISAD251_Week05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmilner\\Downloads\\Week05\\ISAD251_Week05\\ISAD251_Week05.csproj": {
+    "C:\\wamp64\\www\\ISAD251_Wk05_Ex02\\ISAD251_Week05\\ISAD251_Week05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmilner\\Downloads\\Week05\\ISAD251_Week05\\ISAD251_Week05.csproj",
+        "projectUniqueName": "C:\\wamp64\\www\\ISAD251_Wk05_Ex02\\ISAD251_Week05\\ISAD251_Week05.csproj",
         "projectName": "ISAD251_Week05",
-        "projectPath": "C:\\Users\\gmilner\\Downloads\\Week05\\ISAD251_Week05\\ISAD251_Week05.csproj",
-        "packagesPath": "C:\\Users\\gmilner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmilner\\Downloads\\Week05\\ISAD251_Week05\\obj\\",
+        "projectPath": "C:\\wamp64\\www\\ISAD251_Wk05_Ex02\\ISAD251_Week05\\ISAD251_Week05.csproj",
+        "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
+        "outputPath": "C:\\wamp64\\www\\ISAD251_Wk05_Ex02\\ISAD251_Week05\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gmilner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -44,6 +39,24 @@
         "netcoreapp3.0": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
             }
